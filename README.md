@@ -80,3 +80,13 @@
   - 在Dockerfile中设置挂载点不能直接设置本地磁盘目录，存放数据的目录是docker自动生成的，若要手动指定，需要使用`-v`命令设置
 
 ## Docker Compose
+1. 它是单机多容器部署工具
+2. 通过yml文件定义多容器如何部署
+3. windows默认提供，linux需安装
+
+### WordPress demo
+1. ref:https://github.com/docker/awesome-compose/tree/master/official-documentation-samples/wordpress/
+2. `docker compose up -d`，构建
+3. `docker compose down --volumes`，删除
+
+## 容器编排与k8s
