@@ -90,3 +90,9 @@
 3. `docker compose down --volumes`，删除
 
 ## 容器编排与k8s
+
+### Pod
+1. Pod是“容器”的容器，可以包含多个“container”
+2. Pod是k8s的最小部署单元，一个Pod就是一个进程
+3. Pod内部容器网络互通，每个Pod都是独立IP
+4. Pod都是部署完整的应用或模块
